@@ -1,3 +1,149 @@
-h1 {
-  color: red;
+* {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  color: #1f2937;
+}
+
+.section {
+  padding: 30px 300px 30px 300px;
+}
+
+.header-section,
+.footer,
+.hero-section {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+}
+
+/* HEADER SECTION */
+
+.header-section {
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header-links ul,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  padding: 0px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-left-side {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 8px;
+}
+
+.hero-right-side {
+  min-width: 400px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* CARD SECTION */
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.card-box {
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+/* QUOTES SECTION */
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quotation {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.author {
+  text-align: end;
+  font-weight: bold;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+* {
+  outline: 1px solid red;
 }
