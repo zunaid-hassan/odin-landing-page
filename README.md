@@ -2,6 +2,10 @@
 
 This is the Landing Page project for The Odin Project.
 
+# Live Preview
+
+https://zunaid-hassan.github.io/odin-landing-page/
+
 # Credits
 
 Images from [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/). Free to use, no attribution required. Attribution provided voluntarily.
