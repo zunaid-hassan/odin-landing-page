@@ -9,10 +9,16 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   color: #1f2937;
+  background-color: #f9faf8;
 }
 
 .section {
   padding: 30px 300px 30px 300px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .header-section,
@@ -46,7 +52,7 @@ body {
 a {
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: #f9faf8;
   font-size: 18px;
   padding: 0px;
 }
@@ -56,6 +62,7 @@ a {
 .hero-section {
   justify-content: center;
   align-items: center;
+  column-gap: 8px;
 }
 
 .hero-left-side {
@@ -116,7 +123,7 @@ a {
 
 .card-box {
   border: 2px solid #3882f6;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
 }
@@ -140,6 +147,45 @@ a {
   font-weight: bold;
 }
 
+/* QUOTE SECTION */
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+}
+.sign-up-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 8px;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 30px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.button-1,
+.button-2 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  width: 100px;
+  transition-duration: 0.2s;
+}
+
+.button-2 {
+  border: 1px solid #f9faf8;
+}
+
+.button-1:hover,
+.button-2:hover {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
+
 /* FOOTER SECTION */
 
 .footer {
@@ -147,9 +193,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
