@@ -6,7 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: 100vh;
   color: #3e5f44;
   background-color: #f9faf8;
