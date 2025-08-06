@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  /* outline: 1px solid blue; */
+  outline: 1px solid blue;
 }
 
 body {
@@ -139,7 +139,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
 }
 
