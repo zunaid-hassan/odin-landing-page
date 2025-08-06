@@ -79,17 +79,24 @@ a {
 .hero-left-side {
   display: flex;
   flex-direction: column;
+  flex-shrink: 2;
   padding: 10px;
   gap: 8px;
 }
 
 .hero-right-side {
   min-width: 400px;
-  background-color: gray;
+  /* background-color: gray; */
   display: flex;
+  flex-shrink: 1;
   justify-content: center;
   align-items: center;
-  align-self: stretch;
+  /* align-self: stretch; */
+}
+
+.image {
+  display: flex;
+  min-width: 400px;
 }
 
 .hero-text {
@@ -213,6 +220,6 @@ a {
   padding: 20px;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
