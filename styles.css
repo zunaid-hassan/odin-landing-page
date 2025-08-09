@@ -46,10 +46,22 @@ body {
   
 } */
 
+.header-logo ul,
 .header-logo a {
   font-size: 24px;
   font-weight: normal;
   font-family: "Lilita One", Roboto, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.header-logo a:hover {
+  color: #93da97;
+}
+
+.header-logo a:active {
+  color: #e8ffd7;
 }
 
 .header-links ul {
@@ -60,7 +72,7 @@ body {
   font-family: "Lilita One", Roboto, sans-serif;
 }
 
-ul,
+.header-links ul,
 a {
   text-decoration: none;
   list-style-type: none;
@@ -79,7 +91,7 @@ a {
 }
 
 .header-links a:active {
-  font-size: 17px;
+  background-color: #93da97;
 }
 
 /* HERO SECTION */
@@ -255,6 +267,48 @@ a {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: "Lilita One", Roboto, sans-serif;
+}
+
+h2 {
+  font-family: "Lilita One", Roboto, sans-serif;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  gap: 20px;
+  background-color: #e8ffd7;
+  flex: 1;
+  text-justify: inter-word;
+  text-align: justify;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  gap: 20px;
+  background-color: #e8ffd7;
+  flex: 1;
+  text-justify: inter-word;
+  text-align: justify;
+}
+
+.product-container ul {
+  color: #3e5f44;
+}
+
+.end-quote {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lilita One", Roboto, sans-serif;
 }
 
 /* * {
