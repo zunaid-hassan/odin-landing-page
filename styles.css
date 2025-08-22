@@ -326,6 +326,13 @@ a:hover {
   border-radius: 2px;
 }
 
+::selection {
+  color: #e8ffd7;
+  background: #5e936c;
+}
+
 /* * {
   outline: 1px solid red;
 } */
+
+/* UNUSED COLOR 5E936C */
