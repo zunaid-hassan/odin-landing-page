@@ -90,10 +90,12 @@ body {
   background-color: #e8ffd7;
   color: #3e5f44;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .header-links a:active {
   background-color: #93da97;
+  border-radius: 5px;
 }
 
 /* HERO SECTION */
