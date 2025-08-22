@@ -51,6 +51,8 @@ body {
   font-size: 24px;
   font-weight: normal;
   font-family: "Lilita One", Roboto, sans-serif;
+
+  color: #f9faf8;
   text-decoration: none;
   list-style-type: none;
   padding-left: 0px;
@@ -73,7 +75,7 @@ body {
 }
 
 .header-links ul,
-a {
+.header-links a {
   text-decoration: none;
   list-style-type: none;
   color: #f9faf8;
@@ -309,6 +311,17 @@ h2 {
   font-size: 20px;
   text-align: center;
   font-family: "Lilita One", Roboto, sans-serif;
+}
+
+a {
+  color: #3e5f44;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  color: #e8ffd7;
+  background-color: #3e5f44;
+  border-radius: 2px;
 }
 
 /* * {
