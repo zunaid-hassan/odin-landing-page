@@ -333,8 +333,9 @@ h2 {
   color: #3e5f44;
 }
 
-#tabletop-zen-garden {
+img[id="tabletop-zen-garden"] {
   width: 500px;
+  border-radius: 10px;
 }
 
 .right-side-product {
