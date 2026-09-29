@@ -243,7 +243,7 @@ body {
   transition-duration: 0.2s;
   font-weight: bold;
   text-align: center;
-  text-justify: center;
+  /* text-justify: center; */
 }
 
 .button-2 {
